@@ -1,0 +1,30 @@
+{
+    "require":{
+        "php":"^8"
+    },
+    "require-dev": {
+        "php":"^8",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload":{
+        "files": [
+            "src/bubblesort.php",
+            "src/fechas.php",
+            "src/alumnos.php",
+            "src/BubblesortAlumnos.php",
+            "src/quicksort.php",
+            "src/filter.php"
+        ]
+    },
+    "autoload-dev": {
+        "files": [
+            "src/bubblesort.php",
+            "src/fechas.php",
+            "src/alumnos.php",
+            "src/BubblesortAlumnos.php",
+            "src/quicksort.php",
+            "src/filter.php"
+            
+        ]
+    }
+}
